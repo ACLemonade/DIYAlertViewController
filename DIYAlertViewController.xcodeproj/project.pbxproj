@@ -13,6 +13,9 @@
 		8C3B7FBD1ECAF4D6002B61C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3B7FBB1ECAF4D6002B61C9 /* Main.storyboard */; };
 		8C3B7FBF1ECAF4D6002B61C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3B7FBE1ECAF4D6002B61C9 /* Assets.xcassets */; };
 		8C3B7FC21ECAF4D6002B61C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3B7FC01ECAF4D6002B61C9 /* LaunchScreen.storyboard */; };
+		8C3B7FCF1ECAF52C002B61C9 /* DIYAlertSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B7FCA1ECAF52C002B61C9 /* DIYAlertSheet.m */; };
+		8C3B7FD01ECAF52C002B61C9 /* DIYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B7FCC1ECAF52C002B61C9 /* DIYAlertView.m */; };
+		8C3B7FD11ECAF52C002B61C9 /* DIYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B7FCE1ECAF52C002B61C9 /* DIYAlertViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		8C3B7FBE1ECAF4D6002B61C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3B7FC11ECAF4D6002B61C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C3B7FC31ECAF4D6002B61C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3B7FC91ECAF52C002B61C9 /* DIYAlertSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYAlertSheet.h; sourceTree = "<group>"; };
+		8C3B7FCA1ECAF52C002B61C9 /* DIYAlertSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYAlertSheet.m; sourceTree = "<group>"; };
+		8C3B7FCB1ECAF52C002B61C9 /* DIYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYAlertView.h; sourceTree = "<group>"; };
+		8C3B7FCC1ECAF52C002B61C9 /* DIYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYAlertView.m; sourceTree = "<group>"; };
+		8C3B7FCD1ECAF52C002B61C9 /* DIYAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYAlertViewController.h; sourceTree = "<group>"; };
+		8C3B7FCE1ECAF52C002B61C9 /* DIYAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYAlertViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				8C3B7FB61ECAF4D6002B61C9 /* AppDelegate.m */,
 				8C3B7FB81ECAF4D6002B61C9 /* ViewController.h */,
 				8C3B7FB91ECAF4D6002B61C9 /* ViewController.m */,
+				8C3B7FCD1ECAF52C002B61C9 /* DIYAlertViewController.h */,
+				8C3B7FCE1ECAF52C002B61C9 /* DIYAlertViewController.m */,
+				8C3B7FCB1ECAF52C002B61C9 /* DIYAlertView.h */,
+				8C3B7FCC1ECAF52C002B61C9 /* DIYAlertView.m */,
+				8C3B7FC91ECAF52C002B61C9 /* DIYAlertSheet.h */,
+				8C3B7FCA1ECAF52C002B61C9 /* DIYAlertSheet.m */,
 				8C3B7FBB1ECAF4D6002B61C9 /* Main.storyboard */,
 				8C3B7FBE1ECAF4D6002B61C9 /* Assets.xcassets */,
 				8C3B7FC01ECAF4D6002B61C9 /* LaunchScreen.storyboard */,
@@ -152,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3B7FBA1ECAF4D6002B61C9 /* ViewController.m in Sources */,
+				8C3B7FCF1ECAF52C002B61C9 /* DIYAlertSheet.m in Sources */,
+				8C3B7FD11ECAF52C002B61C9 /* DIYAlertViewController.m in Sources */,
 				8C3B7FB71ECAF4D6002B61C9 /* AppDelegate.m in Sources */,
+				8C3B7FD01ECAF52C002B61C9 /* DIYAlertView.m in Sources */,
 				8C3B7FB41ECAF4D6002B61C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
